@@ -12,4 +12,9 @@ public class Deportiva extends Barco{
 	public float precio_dia_alquiler() {
 		return 5*CV;
 	}
+
+	@Override
+	public float precio_final() {		
+		return 308;
+	}
 }

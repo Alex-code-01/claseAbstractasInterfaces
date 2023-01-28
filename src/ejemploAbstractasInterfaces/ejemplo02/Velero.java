@@ -12,4 +12,9 @@ public class Velero extends Barco{
 	public float precio_dia_alquiler() {
 		return 2*numMastiles;
 	}
+
+	@Override
+	public float precio_final() {
+		return 540;
+	}
 }

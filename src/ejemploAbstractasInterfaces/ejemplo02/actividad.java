@@ -12,6 +12,7 @@ public class actividad {
 		//System.out.println(barco1.precio_dia_alquiler());//40
 		System.out.println(velero1.precio_dia_alquiler());//6
 		System.out.println(deportiva1.precio_dia_alquiler());//40
-		System.out.println(pedalo1.precio_dia_alquiler());//24
+		System.out.println("Alquiler pedalo: " + pedalo1.precio_dia_alquiler());//24
+		System.out.println("Precio venta pedalo: " + pedalo1.precio_final());
 	}
 }

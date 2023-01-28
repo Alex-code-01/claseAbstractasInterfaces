@@ -1,6 +1,6 @@
 package ejemploAbstractasInterfaces.ejemplo02;
 
-public abstract class Barco implements Alquilable{
+public abstract class Barco implements Alquilable, Enventa{
 	private String matricula;
 	private int eslora;
 	private int manga;
