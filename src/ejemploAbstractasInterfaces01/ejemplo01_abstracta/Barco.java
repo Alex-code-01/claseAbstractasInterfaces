@@ -1,6 +1,6 @@
-package ejemploAbstractasInterfaces.ejemplo02_interfaz;
+package ejemploAbstractasInterfaces01.ejemplo01_abstracta;
 
-public abstract class Barco implements Alquilable, Enventa{
+public abstract class Barco {
 	private String matricula;
 	private int eslora;
 	private int manga;
@@ -11,4 +11,6 @@ public abstract class Barco implements Alquilable, Enventa{
 		this.eslora = eslora;
 		this.manga = manga;
 	}
+	
+	public abstract float precio_dia_alquiler();
 }

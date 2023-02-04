@@ -21,6 +21,14 @@ public class ejercicio4 {
 		for (int i=0; i<arr.length; i++) {
 			System.out.println(arr[i].grito());
 		}
+		System.out.println("\nRecorriendo el array con for each");
+		/*
+		 * for element in elements
+		 * siendo elements el array
+		 */
+		for (Sonidos s: arr) {
+			System.out.println(s.grito());
+		}
 
 	}
 

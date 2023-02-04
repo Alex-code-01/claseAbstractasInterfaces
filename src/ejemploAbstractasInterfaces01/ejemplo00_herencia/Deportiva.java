@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces.ejemplo01_abstracta;
+package ejemploAbstractasInterfaces01.ejemplo00_herencia;
 
 public class Deportiva extends Barco{
 	private int CV;
@@ -6,10 +6,5 @@ public class Deportiva extends Barco{
 	public Deportiva(String matricula, int eslora, int manga, int cV) {
 		super(matricula, eslora, manga);
 		CV = cV;
-	}
-
-	@Override
-	public float precio_dia_alquiler() {
-		return 5*CV;
 	}
 }

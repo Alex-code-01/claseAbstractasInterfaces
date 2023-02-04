@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces.ejemplo01_abstracta;
+package ejemploAbstractasInterfaces01.ejemplo00_herencia;
 
 public class Velero extends Barco{
 	private int numMastiles;

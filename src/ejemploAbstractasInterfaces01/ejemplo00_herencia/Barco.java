@@ -1,6 +1,6 @@
-package ejemploAbstractasInterfaces.ejemplo01_abstracta;
+package ejemploAbstractasInterfaces01.ejemplo00_herencia;
 
-public abstract class Barco {
+public class Barco {
 	private String matricula;
 	private int eslora;
 	private int manga;
@@ -12,5 +12,7 @@ public abstract class Barco {
 		this.manga = manga;
 	}
 	
-	public abstract float precio_dia_alquiler();
+	public float precio_dia_alquiler() {
+		return 40;
+	}
 }

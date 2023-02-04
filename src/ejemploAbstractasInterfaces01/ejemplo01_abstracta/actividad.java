@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces.ejemplo02_interfaz;
+package ejemploAbstractasInterfaces01.ejemplo01_abstracta;
 
 public class actividad {
 
@@ -7,12 +7,9 @@ public class actividad {
 		//Barco barco1 = new Barco("11223344Y", 33, 22);
 		Velero velero1 = new Velero("44332211N", 44, 55, 3);
 		Deportiva deportiva1 = new Deportiva("99887765P", 33, 22, 1);
-		Pedalo pedalo1 = new Pedalo(12, true);
 		
 		//System.out.println(barco1.precio_dia_alquiler());//40
 		System.out.println(velero1.precio_dia_alquiler());//6
 		System.out.println(deportiva1.precio_dia_alquiler());//40
-		System.out.println("Alquiler pedalo: " + pedalo1.precio_dia_alquiler());//24
-		System.out.println("Precio venta pedalo: " + pedalo1.precio_final());
 	}
 }

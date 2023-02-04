@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces.ejemplo00_herencia;
+package ejemploAbstractasInterfaces01.ejemplo00_herencia;
 
 public class actividad {
 
