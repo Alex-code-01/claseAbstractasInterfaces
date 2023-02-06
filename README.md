@@ -1,9 +1,10 @@
 # Clase Abstractas e Interfaces
 
 ## Clases abstractas
+
 - Contiene al menos un método abstracto
 - Se utilizan sólo cuando existe relación de herencia
-- Objetivo: Objetivo: exigir la presencia de uno o más métodos abstractos en las clases que hereden de ella (clases hijas).
+- Objetivo: exigir la presencia de uno o más métodos en las clases (clases hijas) que hereden de la clase abstracta.
 - Se definen con la palabra abstract
 - No se pueden instanciar objetos de una clase abstracta (clase madre), pero sí crear variables.
 
@@ -11,6 +12,12 @@
 - Método sin código, simplemente declarado
 
 ## Interfaces
+
+- Colección de constantes y métodos abstractos
+- Permiten exigir la presencia de métodos sin que exista relación de herencia (diferencia con clases
+- Objetivo: Exigir la presencia de métodos en las clases en las que no existe una relación de herencia
+- Se define con la palabra reservada interface
+- Su implementación se realiza utilizando la palabra reservada implements
 
 ## Enlaces de interés
 
