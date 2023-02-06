@@ -1,9 +1,0 @@
-/**
- * 
- */
-/**
- * @author alexl
- *
- */
-module ejemploAbstractasInterfaces {
-}
