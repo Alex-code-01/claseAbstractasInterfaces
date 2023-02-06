@@ -2,11 +2,19 @@
 
 ## Ejemplo00_Herencia
 
-En el primer ejemplo se empieza repasando los coneptos de herencia y polimorfismo asimilados en temas anteriores. 
+En el primer ejemplo se empieza repasando los coneptos de herencia y polimorfismo asimilados en temas anteriores. Para ello se implementa en código el siguiente diagrama de clases UML:
+
+![Diagrama de clases UML](../imagenes/ejemplo00-uml.png)
+
+En este ejemplo las clases hijas (Velero y Deportiva) pueden (opcional) sobrescribir (override) el método precio_dia_alquiler, y modificar su comportamiento (polimorfismo).
 
 ## Ejemplo01_Abstracta
 
-En este segundo ejemplo se requiere que todas las clases hijas de la clase madre Barco estén obligadas a implementar el método precio_dia_alquiler(). Para ello se hará uso de una clase abstracta (definiendo el método precio_dia_alquiler() como abstracto).
+En este segundo ejemplo se requiere que todas las clases hijas de la clase madre Barco estén obligadas a implementar el método precio_dia_alquiler(). Para ello se hará uso de una clase abstracta (definiendo el método precio_dia_alquiler() como abstracto). Para ello se implementa en código el siguiente diagrama de clases UML:
+
+![Diagrama de clases UML](../imagenes/ejemplo01-uml.png)
+
+En este ejemplo las clases hijas (Velero y Deportiva) están obligadas a sobrescribir el método precio_dia_alquiler.
 
 ## Ejemplo02_Interfaz
 
