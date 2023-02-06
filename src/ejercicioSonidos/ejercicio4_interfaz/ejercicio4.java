@@ -16,7 +16,7 @@ public class ejercicio4 {
 		Perro perro2 = new Perro("Chihuahua", "Masculino", 4, true, false);
 		arr.add(perro2);
 		
-		Robot robot1 = new Robot(true);
+		Robot robot1 = new Robot("Robot 1", true);
 		arr.add(robot1);
 		
 		
