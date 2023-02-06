@@ -1,10 +1,9 @@
-# Ejemplo 2 de Clases abstractas e interfaces: Asalariado
+# Clases abstractas e Interfaces. Ejemplo 2: Asalariado
 
-## Diagrama de clases UML
+Se implementan las clases en código a partir del siguiente diagrama de clases UML:
+
 
 ![Diagrama de clases UML](../imagenes/asalariado-uml.png)
-
-## Explicación del código
 
 Clase Empleado: 
 - Clase madre de Comercial, Contable y Directivo (relación de herencia). 

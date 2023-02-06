@@ -1,4 +1,4 @@
-# Ejemplo 1 de Clases abstractas e interfaces: Alquilable
+# Clases abstractas e Interfaces. Ejemplo 1: Alquilable
 
 ## Ejemplo00_Herencia
 

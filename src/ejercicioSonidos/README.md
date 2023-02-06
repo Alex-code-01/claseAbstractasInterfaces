@@ -1,4 +1,4 @@
-# Actividad 1 de Clases abstractas e Interfaces: Sonidos
+# Clases abstractas e Interfaces. Actividad 1: Sonidos
 
 ## Ejercicio03: Clase abstracta
 Se requiere desarrollar un proyecto con los siguientes requisitos:
