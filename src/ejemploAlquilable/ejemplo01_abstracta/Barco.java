@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces01.ejemplo01_abstracta;
+package ejemploAlquilable.ejemplo01_abstracta;
 
 public abstract class Barco {
 	private String matricula;
@@ -13,4 +13,12 @@ public abstract class Barco {
 	}
 	
 	public abstract float precio_dia_alquiler();
+
+	@Override
+	public String toString() {
+		return "Barco [matricula=" + matricula + ", eslora=" + eslora + ", manga=" + manga + ", precio_dia_alquiler()="
+				+ precio_dia_alquiler() + "]";
+	}
+	
+	
 }

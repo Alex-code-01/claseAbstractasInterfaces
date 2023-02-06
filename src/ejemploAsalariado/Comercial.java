@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces02;
+package ejemploAsalariado;
 
 public class Comercial extends Empleado{
 	private double ventas;
@@ -14,6 +14,11 @@ public class Comercial extends Empleado{
 	public float salario() {
 		// TODO Auto-generated method stub
 		return (float) (ventas*comision);
+	}
+
+	@Override
+	public String toString() {
+		return "Comercial [ventas=" + ventas + ", comision=" + comision + ", salario()=" + salario() + "]";
 	}
 	
 	 

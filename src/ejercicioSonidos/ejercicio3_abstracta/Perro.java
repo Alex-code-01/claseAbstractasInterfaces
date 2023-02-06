@@ -24,8 +24,10 @@ public class Perro extends Animal {
 	}
 	@Override
 	public String grito() {
-		
 		return "Guau";
 	}
-
+	@Override
+	public String toString() {
+		return "Perro [peligroso=" + peligroso + ", adiestrado=" + adiestrado + ", grito()=" + grito() + "]";
+	}
 }

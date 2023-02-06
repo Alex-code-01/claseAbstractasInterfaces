@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces02;
+package ejemploAsalariado;
 
 public abstract class Empleado implements Asalariado{
 	private String dni;
@@ -11,4 +11,10 @@ public abstract class Empleado implements Asalariado{
 		this.nombre = nombre;
 		this.nss = nss;
 	}
+
+	@Override
+	public String toString() {
+		return "Empleado [dni=" + dni + ", nombre=" + nombre + ", nss=" + nss + "]";
+	}
+	
 }

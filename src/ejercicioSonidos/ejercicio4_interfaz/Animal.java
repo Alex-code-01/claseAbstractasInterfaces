@@ -36,7 +36,9 @@ public abstract class Animal implements Sonidos{
 	public void setNum_patas(int num_patas) {
 		this.num_patas = num_patas;
 	}
-	
-	
 
+	@Override
+	public String toString() {
+		return "Animal [raza=" + raza + ", sexo=" + sexo + ", num_patas=" + num_patas + "]";
+	}
 }

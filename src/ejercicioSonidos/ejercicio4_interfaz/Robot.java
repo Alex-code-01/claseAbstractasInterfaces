@@ -21,4 +21,9 @@ public class Robot implements Sonidos{
 	public String grito() {
 		return "Soy un robot, no grito";
 	}
+
+	@Override
+	public String toString() {
+		return "Robot [brazo_mecanico=" + brazo_mecanico + ", grito()=" + grito() + "]";
+	}
 }

@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces02;
+package ejemploAsalariado;
 
 import java.util.ArrayList;
 
@@ -23,9 +23,9 @@ public class app {
 		arr.add(subcontratado1);
 		
 		//Recorremos el ArrayList
-		System.out.println("Salarios de los Asalariados:\n");
+		System.out.println("Asalariados:\n");
 		for(int i=0; i<arr.size(); i++) {
-			System.out.println(arr.get(i).getClass().getSimpleName()+": "+arr.get(i).salario());
+			System.out.println(arr.get(i).toString());
 		}								
 	}
 

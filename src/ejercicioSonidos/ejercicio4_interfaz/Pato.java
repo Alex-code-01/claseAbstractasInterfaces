@@ -22,4 +22,9 @@ public class Pato extends Animal {
 		return "Cuac";
 	}
 
+	@Override
+	public String toString() {
+		return "Pato [plumaje=" + plumaje + ", grito()=" + grito() + "]";
+	}
+
 }

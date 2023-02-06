@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces02;
+package ejemploAsalariado;
 
 public class Contable extends Empleado{
 	private int horasExtra;
@@ -15,4 +15,11 @@ public class Contable extends Empleado{
 		// TODO Auto-generated method stub
 		return (float) (horasExtra*precioExtra);
 	}
+
+	@Override
+	public String toString() {
+		return "Contable [horasExtra=" + horasExtra + ", precioExtra=" + precioExtra + ", salario()=" + salario() + "]";
+	}
+	
+	
 }

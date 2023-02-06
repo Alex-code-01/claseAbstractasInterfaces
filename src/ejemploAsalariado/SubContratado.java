@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces02;
+package ejemploAsalariado;
 
 public class SubContratado implements Asalariado{
 	private String dni;
@@ -12,6 +12,11 @@ public class SubContratado implements Asalariado{
 	public float salario() {
 		// TODO Auto-generated method stub
 		return 1200;
+	}
+
+	@Override
+	public String toString() {
+		return "SubContratado [dni=" + dni + ", salario()=" + salario() + "]";
 	}
 	
 	

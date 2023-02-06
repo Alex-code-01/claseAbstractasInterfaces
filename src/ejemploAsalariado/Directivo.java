@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces02;
+package ejemploAsalariado;
 
 public class Directivo extends Empleado{
 	private double dietas;
@@ -13,4 +13,11 @@ public class Directivo extends Empleado{
 		// TODO Auto-generated method stub
 		return (float) (dietas*40);
 	}
+
+	@Override
+	public String toString() {
+		return "Directivo [dietas=" + dietas + ", salario()=" + salario() + "]";
+	}
+	
+	
 }

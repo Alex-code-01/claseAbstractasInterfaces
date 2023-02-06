@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces01.ejemplo01_abstracta;
+package ejemploAlquilable.ejemplo01_abstracta;
 
 public class Deportiva extends Barco{
 	private int CV;
@@ -12,4 +12,11 @@ public class Deportiva extends Barco{
 	public float precio_dia_alquiler() {
 		return 5*CV;
 	}
+
+	@Override
+	public String toString() {
+		return "Deportiva [CV=" + CV + ", precio_dia_alquiler()=" + precio_dia_alquiler() + "]";
+	}
+	
+	
 }

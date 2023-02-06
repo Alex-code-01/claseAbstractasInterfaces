@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces01.ejemplo00_herencia;
+package ejemploAlquilable.ejemplo00_herencia;
 
 public class Barco {
 	private String matricula;
@@ -15,4 +15,11 @@ public class Barco {
 	public float precio_dia_alquiler() {
 		return 40;
 	}
+
+	@Override
+	public String toString() {
+		return "Barco [matricula=" + matricula + ", eslora=" + eslora + ", manga=" + manga + ", precio_dia_alquiler()="
+				+ precio_dia_alquiler() + "]";
+	}
+	
 }

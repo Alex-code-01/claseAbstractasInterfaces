@@ -1,6 +1,6 @@
-package ejemploAbstractasInterfaces01.ejemplo02_interfaz;
+package ejemploAlquilable.ejemplo02_interfaz;
 
-public class Pedalo implements Alquilable, Enventa{
+public class Pedalo implements Alquilable{
 	private int numPedalo;
 	private boolean columpio;
 	
@@ -17,8 +17,9 @@ public class Pedalo implements Alquilable, Enventa{
 	}
 
 	@Override
-	public float precio_final() {
-		// TODO Auto-generated method stub
-		return 450;
+	public String toString() {
+		return "Pedalo [numPedalo=" + numPedalo + ", columpio=" + columpio + ", precio_dia_alquiler()="
+				+ precio_dia_alquiler() + "]";
 	}
+	
 }

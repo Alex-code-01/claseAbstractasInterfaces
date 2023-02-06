@@ -1,4 +1,4 @@
-package ejemploAbstractasInterfaces01.ejemplo02_interfaz;
+package ejemploAlquilable.ejemplo02_interfaz;
 
 public class Velero extends Barco{
 	private int numMastiles;
@@ -14,7 +14,8 @@ public class Velero extends Barco{
 	}
 
 	@Override
-	public float precio_final() {
-		return 540;
+	public String toString() {
+		return "Velero [numMastiles=" + numMastiles + ", precio_dia_alquiler()=" + precio_dia_alquiler() + "]";
 	}
+	
 }
