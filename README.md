@@ -6,7 +6,7 @@ Una empresa que se dedica inicialmente al alquiler de Barcos solicita una aplica
 
 ## Ejemplo Asalariado
 
-Una empresa solicita gestionar el sualdo de sus empleados a través de una aplicación. Tienen distintos tipos de empleados y se requiere poder consultar el salario de todos ellos a través de la aplicación.
+Una empresa solicita gestionar el sueldo de sus empleados a través de una aplicación. Tienen distintos tipos de empleados y se requiere poder consultar el salario de todos ellos a través de la aplicación.
 
 ## Ejercicio Sonidos
 
